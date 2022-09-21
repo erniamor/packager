@@ -1,6 +1,6 @@
 # Packager
 
-> Packager is a minimalist JavaScript library that provide an exemple for NPM package.
+> Packager is a minimalist JavaScript library that provide an example for NPM package.
 
 * 💪 Immutable
 * 📦 No dependancies
@@ -46,7 +46,7 @@ name (string) : The name to say hello
 
 (string) : The hello to the name
 
-**Exemple**
+**Example**
 
 ```javascript
 sayHello('Martin'); // return "Hello Martin !"
