@@ -1,6 +1,6 @@
 {
   "name": "@erniamor/packager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JavaScript library that provide an exemple for NPM package.",
   "exports": {
     ".": {
