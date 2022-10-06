@@ -5,6 +5,8 @@
 * 💪 Immutable
 * 📦 No dependancies
 * 👫 All browsers supported
+* ✅ Fully tested
+* 😎 100% covered
 
 ---
 
@@ -51,6 +53,29 @@ name (string) : The name to say hello
 ```javascript
 sayHello('Martin'); // return "Hello Martin !"
 ```
+---
+
+## Tests
+
+- Run tests with npm test command
+
+```console
+npm run test
+```
+
+- Run covered tests with npm test-coverage command
+
+```console
+npm run test-coverage
+```
+
+- Open coverage html report
+
+```console
+npx http-server ./coverage
+```
+
+And open your browser at http://127.0.0.1:8080
 
 ---
 
