@@ -1,15 +1,11 @@
-/**
- * sayHello
- * 
- * Say Hello to the name passed in argument
- * 
- * @param name string
- * @returns string
- */
-export function sayHello(name: string): string {
-  return `Hello ${name} !`;
-}
+import { sayHello } from "./core/sayHello";
+import { sayGoodbye } from "./core/sayGoodbye";
 
 export default {
   sayHello,
-};
+  sayGoodbye
+}
+export {
+  sayHello,
+  sayGoodbye
+}
